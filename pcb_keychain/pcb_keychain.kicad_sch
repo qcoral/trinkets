@@ -1333,7 +1333,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "47*"
 			(at 96.52 77.47 90)
 			(effects
 				(font
@@ -1401,7 +1401,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "220nF"
 			(at 86.36 64.77 90)
 			(effects
 				(font
