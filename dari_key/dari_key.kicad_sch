@@ -229,7 +229,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -241,7 +241,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -277,7 +277,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -289,7 +289,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -351,6 +351,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -361,17 +372,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -2927,7 +2927,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 63.5) (xy 201.93 63.5)
+			(xy 234.95 52.07) (xy 240.03 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2987,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 60.96) (xy 185.42 60.96)
+			(xy 227.33 49.53) (xy 223.52 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3007,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 60.96) (xy 201.93 60.96)
+			(xy 234.95 49.53) (xy 240.03 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3067,7 +3067,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 63.5) (xy 189.23 63.5)
+			(xy 223.52 52.07) (xy 227.33 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3131,7 +3131,7 @@
 	)
 	(global_label "USB_D-"
 		(shape input)
-		(at 201.93 63.5 0)
+		(at 240.03 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3141,7 +3141,7 @@
 		)
 		(uuid "bff270f3-ce87-4c83-a64a-05a5143763c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.5352 63.5 0)
+			(at 250.6352 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3153,7 @@
 	)
 	(global_label "USB_D+"
 		(shape input)
-		(at 201.93 60.96 0)
+		(at 240.03 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3163,7 +3163,7 @@
 		)
 		(uuid "e6ee87fe-f05f-4b40-8911-d9794c074c0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.5352 60.96 0)
+			(at 250.6352 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3696,7 @@
 	)
 	(symbol
 		(lib_id "MCU_RaspberryPi_RP2040:RP2040")
-		(at 153.67 104.14 0)
+		(at 191.77 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3705,7 +3705,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a88212a-85ae-410c-afbb-4843c825057e")
 		(property "Reference" "U4"
-			(at 155.8133 154.94 0)
+			(at 193.9133 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3714,7 @@
 			)
 		)
 		(property "Value" "RP2040"
-			(at 155.8133 157.48 0)
+			(at 193.9133 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3723,7 @@
 			)
 		)
 		(property "Footprint" "RP2040_minimal:RP2040-QFN-56"
-			(at 134.62 104.14 0)
+			(at 172.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 104.14 0)
+			(at 172.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3741,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 104.14 0)
+			(at 191.77 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4089,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 63.5 90)
+		(at 231.14 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4097,7 +4097,7 @@
 		(dnp no)
 		(uuid "8e72a737-1a4b-4372-845c-4db604d5ca16")
 		(property "Reference" "R6"
-			(at 193.04 68.072 90)
+			(at 231.14 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4105,7 @@
 			)
 		)
 		(property "Value" "27.4"
-			(at 193.04 66.04 90)
+			(at 231.14 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 65.278 90)
+			(at 231.14 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4122,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 63.5 0)
+			(at 231.14 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4131,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 193.04 63.5 0)
+			(at 231.14 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4292,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 60.96 90)
+		(at 231.14 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4300,7 +4300,7 @@
 		(dnp no)
 		(uuid "cc280cd7-6c77-4dd4-a817-1f80390925b2")
 		(property "Reference" "R5"
-			(at 193.04 54.61 90)
+			(at 231.14 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4308,7 @@
 			)
 		)
 		(property "Value" "27.4"
-			(at 193.04 57.15 90)
+			(at 231.14 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 62.738 90)
+			(at 231.14 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4325,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 60.96 0)
+			(at 231.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4334,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 193.04 60.96 0)
+			(at 231.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
