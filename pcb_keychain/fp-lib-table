@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BAT-HLD-001-THM")(type "KiCad")(uri "/Users/qcoral/Downloads/BAT-HLD-001-THM")(options "")(descr ""))
+)
