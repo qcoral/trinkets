@@ -5,7 +5,7 @@
 	(uuid "4ae7f1e9-d2e1-4840-9a59-fe05690e452f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "BAT-HLD-001-THM:BAT-HLD-001-THM"
+		(symbol "BAT-HLD-001:BAT-HLD-001"
 			(pin_names
 				(offset 1.016)
 			)
@@ -21,7 +21,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "BAT-HLD-001-THM"
+			(property "Value" "BAT-HLD-001"
 				(at -3.81 -5.08 0)
 				(effects
 					(font
@@ -30,7 +30,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BAT-HLD-001-THM:BAT_BAT-HLD-001-THM"
+			(property "Footprint" "BAT-HLD-001:BAT_BAT-HLD-001"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-001-THM/TE+Connectivity/view-part/?ref=snap"
+			(property "MF" "Linx Technologies"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +68,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-001-THM/TE+Connectivity/view-part/?ref=eda"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.2 mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -98,7 +98,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "TE Connectivity"
+			(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-001/TE+Connectivity/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -108,7 +108,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "BAT-HLD-001-THM"
+			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
 					(font
@@ -118,7 +118,37 @@
 					(hide yes)
 				)
 			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=90431&manufacturer=Linx Technologies&part_name=BAT-HLD-001-THM&search_term=None"
+			(property "PARTREV" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-001/TE+Connectivity/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "BAT-HLD-001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Holder for CR2032 and CR2025 Batteries, Surface-Mount, Bulk Packaging"
 				(at 0 0 0)
 				(effects
 					(font
@@ -138,7 +168,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "Battery Holder Coin Cell 20mm THM Nickel"
+			(property "MANUFACTURER" "Linx Technologies"
 				(at 0 0 0)
 				(effects
 					(font
@@ -148,7 +178,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BAT-HLD-001-THM_0_0"
+			(symbol "BAT-HLD-001_0_0"
 				(polyline
 					(pts
 						(xy -3.81 1.905) (xy -2.54 1.905)
@@ -187,7 +217,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -1.27 -2.54)
+						(xy -1.27 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0.254)
@@ -199,10 +229,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -2.54 0)
+						(xy -1.27 0) (xy -1.27 -2.54)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -223,10 +253,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 2.54 0)
+						(xy 1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -235,7 +265,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
+						(xy 1.27 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0.254)
@@ -282,42 +312,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 0 180)
 					(length 5.08)
 					(name "~"
@@ -327,7 +321,7 @@
 							)
 						)
 					)
-					(number "N"
+					(number "N1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -713,7 +707,7 @@
 			(symbol "R_Photo_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.762) (xy -2.286 -0.762)
+						(xy -1.524 -0.762) (xy -4.064 1.778)
 					)
 					(stroke
 						(width 0)
@@ -725,7 +719,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -0.762) (xy -4.064 1.778)
+						(xy -1.524 -0.762) (xy -2.286 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -761,7 +755,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -2.286) (xy -2.286 -2.286)
+						(xy -1.524 -2.286) (xy -1.524 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -773,7 +767,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -2.286) (xy -1.524 -1.524)
+						(xy -1.524 -2.286) (xy -2.286 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -825,182 +819,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1456,18 +1274,6 @@
 		)
 	)
 	(junction
-		(at 113.03 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a470d8e-1ab5-4602-9613-2a0a0adb8140")
-	)
-	(junction
-		(at 95.25 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fded1fd-c2fa-45fc-9cb2-8a4bc8f51f41")
-	)
-	(junction
 		(at 104.14 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1480,10 +1286,22 @@
 		(uuid "a76dc557-0f34-4faa-a925-805deb1eafb7")
 	)
 	(junction
+		(at 113.03 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dece2673-e072-4b71-a23e-4b288042bda8")
+	)
+	(junction
 		(at 113.03 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec709dd1-c23e-4894-a895-46e7b17b88db")
+	)
+	(junction
+		(at 95.25 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f64ba576-36c5-45c2-9115-bdbebe8d486e")
 	)
 	(wire
 		(pts
@@ -1527,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 68.58) (xy 102.87 68.58)
+			(xy 95.25 71.12) (xy 113.03 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1597,23 +1415,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 68.58) (xy 95.25 80.01)
+			(xy 95.25 71.12) (xy 95.25 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfb3d920-bbd6-4591-911d-2c5ee28b7f41")
-	)
-	(wire
-		(pts
-			(xy 95.25 67.31) (xy 95.25 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dedd9c97-c862-4362-8ae8-fd2e82dadb25")
+		(uuid "d1b114cd-dbd6-4e3c-a2e1-5ac9f468f1c2")
 	)
 	(wire
 		(pts
@@ -1624,6 +1432,16 @@
 			(type default)
 		)
 		(uuid "ed369d6e-4537-49b0-9306-a0faabff28e8")
+	)
+	(wire
+		(pts
+			(xy 95.25 67.31) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5606437-76fd-4a0f-be3c-0b8445786b9f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1908,33 +1726,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 107.95 68.58 0)
+		(lib_id "BAT-HLD-001:BAT-HLD-001")
+		(at 95.25 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6078a613-d49a-40e6-9d64-9345589f38b4")
-		(property "Reference" "SW1"
-			(at 107.95 59.69 0)
+		(uuid "5e361b55-1de8-46d3-9ad6-bcf07806ee86")
+		(property "Reference" "BT1"
+			(at 99.06 85.7249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 107.95 62.23 0)
+		(property "Value" "BAT-HLD-001"
+			(at 99.06 88.2649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 107.95 68.58 0)
+		(property "Footprint" "BAT-HLD-001:BAT_BAT-HLD-001"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,8 +1772,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 107.95 76.2 0)
+		(property "Description" ""
+			(at 95.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,28 +1781,139 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
-			(at 107.95 68.58 0)
+		(property "MF" "Linx Technologies"
+			(at 95.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "0e1c05de-9590-4edf-b4ba-e6589c98df7e")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.2 mm"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "196f1a1f-1e52-48a4-9624-c111723eba1f")
+		(property "Package" "None"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "7da19d89-68c1-4584-bc85-991a4bb91544")
+		(property "Price" "None"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-001/TE+Connectivity/view-part/?ref=eda"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-001/TE+Connectivity/view-part/?ref=snap"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BAT-HLD-001"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Holder for CR2032 and CR2025 Batteries, Surface-Mount, Bulk Packaging"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Linx Technologies"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P2"
+			(uuid "ac4e9fc2-56a1-4a80-a641-cfbbac58f309")
+		)
+		(pin "P1"
+			(uuid "bcad5917-4c66-4447-ba64-449f9fc94953")
+		)
+		(pin "N1"
+			(uuid "055e8454-0c9d-4d93-a86c-fb3e9a1e1a50")
 		)
 		(instances
 			(project ""
 				(path "/4ae7f1e9-d2e1-4840-9a59-fe05690e452f"
-					(reference "SW1")
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -2180,176 +2121,6 @@
 			(project ""
 				(path "/4ae7f1e9-d2e1-4840-9a59-fe05690e452f"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BAT-HLD-001-THM:BAT-HLD-001-THM")
-		(at 95.25 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0b76e1f-046e-4f1b-8d3a-97f6b2b1a85c")
-		(property "Reference" "BT2"
-			(at 99.06 85.6995 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT-HLD-001-THM"
-			(at 99.06 88.2395 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BAT-HLD-001-THM:BAT_BAT-HLD-001-THM"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-001-THM/TE+Connectivity/view-part/?ref=snap"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-001-THM/TE+Connectivity/view-part/?ref=eda"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BAT-HLD-001-THM"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=90431&manufacturer=Linx Technologies&part_name=BAT-HLD-001-THM&search_term=None"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Battery Holder Coin Cell 20mm THM Nickel"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "P1"
-			(uuid "6e94f1b5-af79-4fa1-bae7-acdc316e32da")
-		)
-		(pin "P2"
-			(uuid "0bffc9ed-c97e-4b08-897d-b0e98429b66e")
-		)
-		(pin "P3"
-			(uuid "09880dcf-28c9-423c-a248-b463e156cb35")
-		)
-		(pin "P4"
-			(uuid "2086cb80-cc37-4e8e-a1ed-aae812f76a68")
-		)
-		(pin "N"
-			(uuid "19d6ef0b-69c5-4b64-8265-8d7c7d7da327")
-		)
-		(instances
-			(project ""
-				(path "/4ae7f1e9-d2e1-4840-9a59-fe05690e452f"
-					(reference "BT2")
 					(unit 1)
 				)
 			)
